@@ -1,0 +1,114 @@
+@font-face {
+   font-family: jokerman;
+   src: url(fonts/jokerman.ttf);
+}
+
+@media screen and (max-width: 640px){
+
+	
+
+	body{
+		position: absolute;
+		height: 100%;
+	}
+
+	header{
+		position: relative;
+		height: 5%;
+		font-family: jokerman;
+		text-align: center;
+	}
+
+	header span{
+		font-size: 35pt;
+	}
+
+	.profile{
+		position: relative;
+		top: 40px;
+		height: 60%;
+	}
+
+	.games{
+		position: relative;
+		top: 40px;
+		height: 40%;
+	}
+
+	.person{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+
+	.label-games{
+		width: 100%;
+		height: 400px;
+		float: left;
+	}
+
+	.games-do-for{
+		left: -10px;
+		top: 20px;
+		font-size: 16pt;
+	}
+
+	#owlino-label .imgs-games, #noel-label .imgs-games{
+		background-size: 90%;
+	}
+
+	.icon-flixel, .icon-phaser{
+		background-size: 60%;
+		margin-top: -15px; 
+	}
+
+	.content-games{
+		left: 0;
+		margin-left:  0;
+		width: 100%;
+		height: 320px;
+	}
+
+	#close-games{
+		font-size: 16pt;
+		left: 0;
+		width: 30px;
+		height: 25px;
+		left: -30px;
+		cursor: pointer;
+	}
+
+	.player-swf{
+	    width: 240px;
+	    height: 320px;
+	    background-color: #555;
+	}
+
+	.owlino-game{
+		position: relative;
+		left: -120px;
+		margin-left: 50%;
+		display: none;
+	}
+
+	iframe{
+		top: -30px;
+		width: 100%;
+		height: 320px;
+		border: none;
+	}
+
+	.noel-game{
+		position: relative;
+		left: 0px;
+		margin-left: 0%;
+		display: none;
+	}
+
+	footer{
+		position: relative;
+		top: 100px;
+	}
+}
